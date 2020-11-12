@@ -1,0 +1,13 @@
+name: "Hellos Actions"
+description: "Greet Someone"
+author: "ocotocat@github.com"
+
+inputs: MY_NAME: description: "Who to greet"
+reequired: true
+default: "world"
+
+runs: using: "docker"
+image: "DOckerfile"
+
+Branding: icon "mic"
+color: "purple"
